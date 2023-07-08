@@ -14,4 +14,4 @@
 
 ### Architecture Diagram
 
-![arch](./arch-diagram.png)
+![arch](./aws-diagram.png)

@@ -37,18 +37,9 @@ This application is provided to you as an alternative starter project if you do 
 
 Provision the necessary AWS services needed for running the application:
 
-1. In AWS, provision a publicly available RDS database running Postgres. `postgres.c9yipu3gzpbi.us-east-1.rds.amazonaws.com`
-1. In AWS, provision a s3 bucket for hosting the uploaded files. `http://mybucket-864662948199.s3-website-us-east-1.amazonaws.com`
+1. In AWS, provision a publicly available RDS database running Postgres. <Place holder for link to classroom article>
+1. In AWS, provision a s3 bucket for hosting the uploaded files. <Place holder for tlink to classroom article>
 1. Export the ENV variables needed or use a package like [dotnev](https://www.npmjs.com/package/dotenv)/.
-* POSTGRES_USERNAME=postgres
-* POSTGRES_PASSWORD=postgres
-* POSTGRES_HOST=postgres.c9yipu3gzpbi.us-east-1.rds.amazonaws.com
-* POSTGRES_DB=postgres
-* AWS_BUCKET=arn:aws:s3:::mybucket-864662948199
-* AWS_REGION=us-east-1
-* AWS_PROFILE=default
-* JWT_SECRET=mysecretstring
-* URL=http://localhost:8100
 1. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
 1. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
 
@@ -79,30 +70,3 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
-
-
-## Front-End Link:
-
-- Link to the hosted working frontend application:
-  (http://mybucket-864662948199.s3-website-us-east-1.amazonaws.com)
-
-## Screenshots:
-
-1. AWS RDS for the database overview:
-   ![RDS](/screenshots/console_RDS.png)
-2. AWS ElasticBeanstalk for the (backend) API deployment:
-   ![Home](/screenshots/console_elastic.png)
-3. AWS S3 for (frontend) web hosting: ``
-   ![Home](/screenshots/console_s3.png)
-4. Home page of the application:
-   ![Home](/screenshots/fe.png)
-5. Udagram Project in Circle CI:
-   ![Udagram](/screenshots/circle_ci_pipeline.png)
-6. Environment Variables:
-   ![Udagram](/screenshots/config_enviroment_variable_circle_ci.png)
-7. Picture of the last successful execution of the pipeline:
-   ![Last Build](/screenshots/circle_ci_workflow.png)
-8. Build Phase
-   ![Build](/screenshots/circle_ci_build.png)
-9. Deployment Phase
-   ![Deployment](/screenshots/circie_ci_deploy.png)
