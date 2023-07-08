@@ -31,6 +31,3 @@ npm dev
 ```
 
 ### The website should be up and running successfully
-
-### You can run with s3 link:
-``` http://bucket-deploy-project4.s3-website-us-east-1.amazonaws.com
